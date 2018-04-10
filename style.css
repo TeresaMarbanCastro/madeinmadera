@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* Header */
+.header__container{
+  background-image: url('images/cuts.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+}
+.header__menu{
+  /* width: 45vw; */
+  display: flex;
+  justify-content: flex-end;
+}
+.menu__list{
+  /* background-color: black; */
+  /* opacity: 0.7; */
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  list-style-type: none;
+}
+.menu__item{
+  margin: 5px;
+  align-self: center;
+}
+.menu__item--link{
+  color: white;
+  font-size: 30px;
+}
+.menu__item--link:hover{
+  color: #935526;
+  cursor: pointer;
+}
+/* Main */
+.description__container{
+  background-image: url("images/trunk.jpg");
+  background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+border: solid 50px white;
+}
